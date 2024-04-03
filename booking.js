@@ -1,9 +1,11 @@
-const page1 = document.getElementById("form-page");
-const page2 = document.getElementById("form-page");
-const page3 = document.getElementById("form-page");
-const page4 = document.getElementById("form-page");
+const page1 = document.getElementById("page1");
+const page2 = document.getElementById("page2");
+const page3 = document.getElementById("page3");
+const page4 = document.getElementById("page4");
 console.log(page1);
 console.log(page2);
+console.log(page3);
+console.log(page4);
 const ProgressBar = document.querySelector("progress");
 
 const summaryName = document.getElementById("summary-name");
@@ -73,11 +75,13 @@ function updateSummary(){
     summaryemail.innerHTML=data.email;
     summaryPeople.innerHTML=data.people;
     summaryTime.innerHTML=data.time;
+
 }
 
 
 function submitData(){
 
+    const data =getFormData();
     const dataRow=document.createElement("tr");
     const cellname=document.createElement("td");
     const celltime=document.createElement("td");
@@ -88,6 +92,7 @@ function submitData(){
     dataRow.appendChild(celltime);
     dataRow.appendChild(cellEmail);
     dataRow.appendChild(cellpeople);
+
 
 
     cellname.innerHTML=data.name;
@@ -101,8 +106,11 @@ function submitData(){
 }
 
 
+
 function adReplay(){
     let ad =document.getElementById("miter10ad");
     let copy = ad.cloneNode(true);
     ad.replaceWith(copy);
 }
+
+

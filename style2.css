@@ -1,4 +1,5 @@
 #miter10ad {
+  position: relative;
     width:500px;
     background-color: red;
     position: absolute;
@@ -10,20 +11,6 @@
    float: left;
    display: flex;
    align-items: center;
-  }
-
-
-  #imger1{
-opacity: 0;
-  }
-  #imger2{
-opacity: 0;
-  }
-  #imger3{
-    opacity: 1;
-  }
-  #contract{
-    opacity: 1;
   }
 
 
@@ -41,7 +28,7 @@ opacity: 0;
     width: 1500px;
     height: 900px;
     top: -60px;
-    opacity: 0;
+    opacity: 1;
   }
 
   #kitchen2 img {
@@ -49,7 +36,7 @@ opacity: 0;
     width: 1500px;
     height: 900px;
     top: -60px;
-    opacity: 1;
+    opacity: 0;
   }
 
   #contract img {
