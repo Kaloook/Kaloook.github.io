@@ -9,13 +9,14 @@
     background-color: bisque;
     }
 
-
-    #progress{
-        position: relative;
-       top: 8px;
-        left: 30px;
-       color:red;
-        white-space: nowrap;
-        width: 300px;
-        font-size: 20px;
-       }
+progress {
+        margin-top: 20px;
+        width: 78%;
+        background-color:darkgray;
+        height: 20px;
+        border-radius: 0.5em;
+    }
+    
+    progress::-moz-progress-bar,progress::-webkit-progress-value {
+        background-color:#206E32;
+    }

@@ -63,9 +63,9 @@ function getFormData(){
 
     return data ={
         name: Fname + " "+ lname,
-        email: vEmail + vtime,
-        time:vtime ,
-        people:vpeople,
+        email: vEmail ,
+        time: vtime ,
+        people: vpeople,
         
     };
   }

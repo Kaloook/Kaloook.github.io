@@ -105,10 +105,16 @@
                 <label for="when">When you arrvial </label>
                 <input type="date"  id="when" name="whenarrvial" required /><br><br></div>
                 <div>
+                <label for="equipment">
+                    Do you need to use equipment (EG: Swimming goggles, surf board)</label>
+                    <form action="/action_page.php">
+                        <input type="checkbox" id="Yes" name="Yes" value="Yes">
+                        <label for="Yes"> Yes</label><br>
+                        <input type="checkbox" id="No" name="No" value="No">
+                        <label for="No"> No</label><br>
+                      </form><br><br>
                 <label for="agreement">
-                    Do you agree with the local native 
-                        conservation initiative agreement?</label>
-                
+                    Do you agree with the local native conservation initiative agreemen</label>
                         <input type="radio" id="agreement" name="agreement" value="agree">
                 </div>
                 <button class="Previous" type="button" onclick="showPage(2)">Previous Page 2
@@ -124,13 +130,16 @@
                 Name:<span id ="summary-name"></span>
                </div>
                <div class="row">
-                Email <span id="summary-Email"></span>
+                Email: <span id="summary-email"></span>
                </div>
                <div class="row">
-                Time <span id="summary-time"></span>
+                Time :<span id="sumarry-time"></span>
                </div>
                <div class="row">
-                people <span id="summary-people"></span>
+                People: <span id="summary-people"></span>
+               </div>
+               <div class="row">
+                equipment: <span id="summary-equipment"></span>
                </div>
                <div id="progress"></div>
                <div>
@@ -150,6 +159,7 @@
                     <td>Email</td>
                     <td>Time</td>
                     <td>people number</td>
+                    <td>equipment</td>
                 </thead>
             </table>
        </div>
