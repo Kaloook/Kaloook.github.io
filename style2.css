@@ -1,7 +1,7 @@
 #miter10ad {
   position: relative;
     width:500px;
-    background-color: red;
+    background-color: white;
     position: absolute;
     margin-top: 100px;
     margin-left: auto;
@@ -36,7 +36,7 @@
     width: 1500px;
     height: 900px;
     top: -60px;
-    opacity: 0;
+    
   }
 
   #contract img {
@@ -66,7 +66,7 @@
         }
 
 #statement3 {
- position: relative;
+ position: absolute;
 top: 150px;
  left: 30px;
 font-size: 40px;
@@ -76,7 +76,7 @@ white-space: nowrap;
  }
 
 #statement4{
- position: relative;
+ position: absolute;
 top: 150px;
  left: 30px;
 font-size: 40px;
@@ -86,7 +86,7 @@ width: 300px;
 }
 
 #statement5{
-  position: relative;
+  position: absolute;
  top: 150px;
   left: 30px;
  font-size: 40px;
@@ -94,7 +94,8 @@ width: 300px;
   white-space: nowrap;
 width: 300px;
  }
- 
+
+
  #contract{
   position: relative;
  top: 150px;
